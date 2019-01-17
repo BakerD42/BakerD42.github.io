@@ -6,32 +6,38 @@
 
 body { 
     font-size: 16px; 
-    line-height: 32px;
+    line-height: 12px;
     font-family: 'Times New Roman', Times, serif;
     color: green;
+    height: 1900px;
 }
 
 h1 {
-    font-size: 24px;
+    font-size: 36px;
+    text-align: center;
     color: red;
+    height: 75px;
 }
 
 h2 {
-    font-size: 18px;
+    font-size: 24px;
     text-align: center;
-    border-bottom: 1px solid rgb(197, 116, 116);
+    border-bottom: 10px black;
+
 }
 
 header, main, footer {
-    margin: 1.25rem auto;
-    padding: .5rem;
-    max-width: 400px;
+    margin: 5.25rem auto;
+    padding: .50rem;
+    max-width: 1000px;
+    color: green;
+    text-align: center;
 }
 
 header, footer, footer a {
     text-align: center;
     background-color: grey;
-    color: rgb(47, 0, 255);
+    color: silver;
 }
 
 header img {
@@ -41,5 +47,5 @@ header img {
 }
 
 footer {
-    font-size: 14px;
+    font-size: 18px;
 }
