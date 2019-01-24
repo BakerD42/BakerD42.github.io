@@ -29,7 +29,6 @@ h2 {
 header, main, footer {
     margin: 5.25rem auto;
     padding: .50rem;
-    max-width: 1000px;
     color: green;
     text-align: center;
 }
@@ -48,4 +47,5 @@ header img {
 
 footer {
     font-size: 18px;
+    
 }
