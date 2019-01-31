@@ -6,16 +6,17 @@
 
 body { 
     font-size: 16px; 
-    line-height: 12px;
+    line-height: 16px;
     font-family: 'Times New Roman', Times, serif;
-    color: green;
+    color: black;
     height: 1900px;
+    
 }
 
 h1 {
     font-size: 36px;
     text-align: center;
-    color: red;
+    color: black;
     height: 75px;
 }
 
@@ -26,11 +27,12 @@ h2 {
 
 }
 
+
 header, main, footer {
-    margin: 5.25rem auto;
+    margin: auto;
     padding: .50rem;
     color: green;
-    text-align: center;
+    
 }
 
 header, footer, footer a {
@@ -44,7 +46,12 @@ header img {
     height: auto;
     float: right;
 }
-
+ul {
+    margin: 0;
+    padding: 0;
+    text-align: center;
+    list-style: circle;
+}
 footer {
     font-size: 18px;
     
