@@ -19,21 +19,14 @@ h1 {
     font-family: 'Iceland', 'cursive';
     color: black;
     height: 75px;
+    
 }
 
 h2 {
     font-size: 28px;
     text-align: center;
     font-family: 'Iceland', 'cursive';
-    border-bottom: 10px black;
-    color: rgb(7, 7, 26);
-
-}
-h3 {
-    font-size: 28px;
-    text-align: center;
-    font-family: 'Iceland', 'cursive';
-    border-bottom: 10px black;
+/*border-bottom: 10px black;*/
     color: rgb(7, 7, 26);
 
 }
@@ -41,7 +34,7 @@ h3 {
 
 header, main, footer {
     margin: auto;
-    padding: .50rem;
+    padding: 3rem;
     color: blue;
     font-weight: bold;
     
@@ -51,12 +44,14 @@ header, footer, footer a {
     text-align: center;
     background-color: grey;
     color: silver;
+    
 }
 
 header img {
-    width: 150px;
+    width: 500px;
     height: auto;
-    float: right;
+    float: auto;
+    padding-bottom: 1cm;
 }
 ul {
     margin: 0;
