@@ -31,7 +31,8 @@ h2 {
 header, main, footer {
     margin: auto;
     padding: .50rem;
-    color: green;
+    color: blue;
+    font-weight: bold;
     
 }
 
