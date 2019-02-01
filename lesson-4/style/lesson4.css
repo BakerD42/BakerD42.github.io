@@ -53,11 +53,8 @@ header img {
     float: auto;
     padding-bottom: 1cm;
 }
-ul {
-    margin: 0;
-    padding: 0;
-    text-align: center;
-    list-style: circle;
+select {
+    align-self: center;
 }
 footer {
     font-size: 18px;
