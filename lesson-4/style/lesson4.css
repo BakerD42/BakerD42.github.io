@@ -50,7 +50,7 @@ header, footer, footer a {
 header img {
     width: 250px;
     height: auto;
-    float: left;
+    float: center;
     padding-bottom: 1cm;
 
 }
