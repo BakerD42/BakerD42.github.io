@@ -46,16 +46,30 @@ header, footer, footer a {
     color: silver;
     
 }
-
+}
 header img {
-    width: 500px;
+    width: 250px;
     height: auto;
-    float: auto;
+    float: left;
     padding-bottom: 1cm;
+
 }
-select {
-    align-self: center;
+button:hover {
+    background-color: aqua;
+    border: none;
+    color: blue;
+    
+    text-align: center;
+    -webkit-transition-duration: 0.4s;
+    transition-duration: 0.4s;
 }
+
+button {
+    padding: 10px, 24px;
+}
+
+
+
 footer {
     font-size: 18px;
     
