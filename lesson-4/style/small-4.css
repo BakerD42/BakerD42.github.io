@@ -14,7 +14,7 @@ body {
 }
 
 h1 {
-    font-size: 36px;
+    font-size: 32px;
     text-align: center;
     font-family: 'Iceland', 'cursive';
     color: black;
@@ -26,11 +26,29 @@ h2 {
     font-size: 28px;
     text-align: center;
     font-family: 'Iceland', 'cursive';
-/*border-bottom: 10px black;*/
     color: rgb(7, 7, 26);
+    font-style: oblique;
 
 }
 
+.btn-group button {
+    background-color: #4CAF50; /* Green background */
+    border: 1px solid green; /* Green border */
+    color: white; /* White text */
+    padding: 10px 24px; /* Some padding */
+    cursor: pointer; /* Pointer/hand icon */
+    width: 50%; /* Set a width if needed */
+    display: block; /* Make the buttons appear below each other */
+  }
+  
+  .btn-group button:not(:last-child) {
+    border-bottom: none; /* Prevent double borders */
+  }
+  
+  /* Add a background color on hover */
+  .btn-group button:hover {
+    background-color: #3e8e41;
+}
 
 header, main, footer {
     margin: auto;
@@ -54,18 +72,11 @@ header img {
     padding-bottom: 1cm;
 
 }
-button:hover {
-    background-color: aqua;
-    border: none;
-    color: blue;
-    
-    text-align: center;
-    -webkit-transition-duration: 0.4s;
-    transition-duration: 0.4s;
-}
 
-button {
-    padding: 10px, 24px;
+ul {
+    text-align: center;
+    padding-bottom: .5cm;
+    color: black;
 }
 
 
