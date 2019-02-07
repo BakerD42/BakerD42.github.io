@@ -3,6 +3,11 @@
 
 /* * is a wildcard referring to all elements. */
 * { margin: 0; box-sizing: border-box; } 
+@media screen and (max-width: 700px) {
+    body {
+      background-color: blue;
+    }
+  }
 
 body { 
     font-size: 16px; 
