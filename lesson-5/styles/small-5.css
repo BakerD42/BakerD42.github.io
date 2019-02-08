@@ -79,9 +79,17 @@ header img {
 }
 
 ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
     text-align: center;
     padding-bottom: .5cm;
     color: black;
+    font-size: 20pt;
+    
+}
+li {
+    margin: 5px;
 }
 
 
