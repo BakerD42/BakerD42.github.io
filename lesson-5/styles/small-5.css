@@ -4,8 +4,13 @@
 /* * is a wildcard referring to all elements. */
 * { margin: 0; box-sizing: border-box; } 
 @media screen and (max-width: 700px) {
+        #weather {
+        visibility:hidden;
+        }
+        
     body {
       background-color: blue;
+      
     }
   }
 
@@ -79,25 +84,13 @@ header img {
 
 }
 
-/* {
-    list-style-type: none;
-    margin: 0;
-    padding: 0;
-    text-align: center;
-    padding-bottom: .5cm;
-    color: black;
-    font-size: 20pt;
-    
-}
-li {
-    margin: 5px;
-}*/
-
 h2{
     padding-top: 1cm;
 }
 p {
     text-align: right;
+    vertical-align: text-bottom;
+    font-size: 20pt;
 }
 
 footer {

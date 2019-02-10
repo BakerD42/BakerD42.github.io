@@ -1,0 +1,97 @@
+/* CIT 230 - Assignment Portal CSS Template */
+/* You may use #HEX or color names */
+
+/* * is a wildcard referring to all elements. */
+* { margin: 0; box-sizing: border-box; } 
+@media screen and (max-width: 700px) {
+    body {
+      background-color: blue;
+    }
+  }
+
+body { 
+    font-size: 16px; 
+    line-height: 16px;
+    font-family: 'Iceland', 'cursive';
+    color: black;
+    height: 1900px;
+    
+}
+
+h1 {
+    font-size: 32px;
+    text-align: center;
+    font-family: 'Iceland', 'cursive';
+    color: black;
+    height: 75px;
+    
+}
+
+h2 {
+    font-size: 28px;
+    text-align: center;
+    font-family: 'Iceland', 'cursive';
+    color: rgb(7, 7, 26);
+    font-style: oblique;
+
+}
+
+.btn-group button {
+    align-content: center;
+    background-color: rgb(87, 189, 192); /* Green background */
+    border: 1px solid white; /* Green border */
+    color: white; /* White text */
+    padding: 10px 24px; /* Some padding */
+    cursor: pointer; /* Pointer/hand icon */
+    width: 50%; /* Set a width if needed */
+    display: inline-block; /* Make the buttons appear below each other */
+  }
+  
+  .btn-group button:not(:last-child) {
+    border-bottom: none; /* Prevent double borders */
+  }
+  
+  /* Add a background color on hover */
+  .btn-group button:hover {
+    background-color: #3e8e41;
+}
+
+header, main, footer {
+    margin: auto;
+    padding: 3rem;
+    color: blue;
+    font-weight: bold;
+    
+}
+
+header, footer, footer a {
+    text-align: center;
+    background-color: grey;
+    color: silver;
+    
+}
+
+header img {
+    width: 250px;
+    height: auto;
+    float: center;
+    padding-bottom: 1cm;
+
+}
+
+h2{
+    padding-top: 1cm;
+}
+
+
+
+p {
+    text-align: right;
+    vertical-align: text-bottom;
+    font-size: 20pt;
+}
+
+footer {
+    font-size: 20px;
+    
+}
