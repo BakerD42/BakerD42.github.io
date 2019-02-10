@@ -37,8 +37,9 @@ h2 {
 }
 
 .btn-group button {
-    background-color: #4CAF50; /* Green background */
-    border: 1px solid green; /* Green border */
+    text-align: center;
+    background-color: rgb(87, 189, 192); /* Green background */
+    border: 1px solid white; /* Green border */
     color: white; /* White text */
     padding: 10px 24px; /* Some padding */
     cursor: pointer; /* Pointer/hand icon */
@@ -78,7 +79,7 @@ header img {
 
 }
 
-ul {
+/* {
     list-style-type: none;
     margin: 0;
     padding: 0;
@@ -90,11 +91,16 @@ ul {
 }
 li {
     margin: 5px;
+}*/
+
+h2{
+    padding-top: 1cm;
+}
+p {
+    text-align: right;
 }
 
-
-
 footer {
-    font-size: 18px;
+    font-size: 20px;
     
 }
