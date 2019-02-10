@@ -37,7 +37,7 @@ h2 {
 }
 
 .btn-group button {
-    text-align: center;
+    align-content: center;
     background-color: rgb(87, 189, 192); /* Green background */
     border: 1px solid white; /* Green border */
     color: white; /* White text */
