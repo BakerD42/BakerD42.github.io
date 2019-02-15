@@ -41,24 +41,8 @@ h2 {
 
 }
 
-.btn-group button {
-    align-content: center;
-    background-color: rgb(87, 189, 192); /* Green background */
-    border: 1px solid white; /* Green border */
-    color: white; /* White text */
-    padding: 10px 24px; /* Some padding */
-    cursor: pointer; /* Pointer/hand icon */
-    width: 50%; /* Set a width if needed */
-    display: inline-block; /* Make the buttons appear below each other */
-  }
-  
-  .btn-group button:not(:last-child) {
-    border-bottom: none; /* Prevent double borders */
-  }
-  
-  /* Add a background color on hover */
-  .btn-group button:hover {
-    background-color: #3e8e41;
+nav{
+    align-self: auto;
 }
 
 header, main, footer {
@@ -91,6 +75,25 @@ p {
     text-align: right;
     vertical-align: text-bottom;
     font-size: 20pt;
+}
+
+li a{
+    display: block;
+    color: grey;
+    text-align: center;
+    
+}
+
+li a:hover{
+    background-color: blue;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: white;
 }
 
 footer {

@@ -64,6 +64,10 @@ header, main, footer {
     
 }
 
+nav ul.hide{
+    display: block;
+}
+
 header, footer, footer a {
     text-align: center;
     background-color: grey;
