@@ -1,3 +1,3 @@
 function toggleMenu() {
-    document.getElementById("btn-group").classlist.toggle("hide");
+    document.getElementById("btn-group").classList.toggle("hide");
 }

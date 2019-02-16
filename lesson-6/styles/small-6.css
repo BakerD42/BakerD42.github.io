@@ -7,12 +7,30 @@
         #weather {
         visibility:hidden;
         }
-        
-    body {
-      background-color: blue;
-      
     }
-  }
+@media screen and (max-width: 600px) {
+        .btn-group a:not(:first-child) {display: none;}
+        .btn-group a.icon {
+          float: right;
+          display: block;
+        }
+      }
+  
+.btn-group{
+    background-color: #fff;
+  box-shadow: 1px 1px 4px 0 rgba(0,0,0,.1);
+  position: fixed;
+  width: 100%;
+  z-index: 3;
+}
+
+.btn-group ul{
+    margin: 0;
+  padding: 0;
+  list-style: none;
+  overflow: hidden;
+  background-color: #fff;
+}
 
 body { 
     font-size: 16px; 
@@ -38,11 +56,6 @@ h2 {
     font-family: 'Iceland', 'cursive';
     color: rgb(7, 7, 26);
     font-style: oblique;
-
-}
-
-nav{
-    align-self: auto;
 }
 
 header, main, footer {
@@ -53,12 +66,24 @@ header, main, footer {
     
 }
 
+main figure.stupid {
+    width: 70%;
+    
+}
+
+main figure.stupid figcaption{
+    text-align: center;
+}
+
+main figure.stupid img{width: 100%;}
+
 header, footer, footer a {
     text-align: center;
     background-color: grey;
     color: silver;
     
 }
+
 
 header img {
     width: 250px;
@@ -77,26 +102,34 @@ p {
     font-size: 20pt;
 }
 
-li a{
+.btn-group {
+    background-color: aqua;
+    overflow: hidden;
+}
+
+.btn-group a {
+    float: left;
     display: block;
     color: grey;
     text-align: center;
-    
+    padding: 5px;
+
 }
 
-li a:hover{
-    background-color: blue;
+.btn-group a:hover{
+    background-color: goldenrod;
+    color: black;
+}
+.active{
+    background-color: blueviolet;
+    color: white;
 }
 
-ul {
-    list-style-type: none;
-    margin: 0;
-    padding: 0;
-    overflow: hidden;
-    background-color: white;
+.btn-group .icon{
+    display: none;
 }
-
 footer {
     font-size: 20px;
     
 }
+
