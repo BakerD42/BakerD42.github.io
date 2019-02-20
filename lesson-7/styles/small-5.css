@@ -14,6 +14,12 @@
     }
   }
 
+@media screen and (max-width: 700px) {
+        {
+        visibility: hidden;
+    }
+}
+
 body { 
     font-size: 16px; 
     line-height: 16px;
@@ -40,8 +46,7 @@ h2 {
     font-style: oblique;
 
 }
-
-ul {
+ul#btn-group {
     align-content: center;
     background-color: rgb(87, 189, 192); /* Green background */
     border: 1px solid white; /* Green border */
@@ -52,12 +57,13 @@ ul {
     display: inline-block; /* Make the buttons appear below each other */
   }
   
-  ul:not(:last-child) {
+  ul#btn-group:not(:last-child) {
     border-bottom: none; /* Prevent double borders */
   }
   
   /* Add a background color on hover */
-  ul:hover {
+
+  ul#btn-group:hover {
     background-color: #3e8e41;
 }
 

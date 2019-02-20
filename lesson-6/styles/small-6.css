@@ -8,15 +8,15 @@
         visibility:hidden;
         }
     }
-@media screen and (max-width: 600px) {
+@media screen and (max-width: 700px) {
         .btn-group a:not(:first-child) {display: none;}
         .btn-group a.icon {
           float: right;
-          display: block;
+          visibility: hidden;
         }
       }
   
-.btn-group{
+#menugroup{
     background-color: #fff;
   box-shadow: 1px 1px 4px 0 rgba(0,0,0,.1);
   position: fixed;
