@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+    <html lang="en-us">
+        
+        <head>
+                <link href="https://fonts.googleapis.com/css?family=Iceland" rel="stylesheet"> 
+                <link rel="normalize" href="styles/normalize.css">
+                <link rel="stylesheet" href="styles/small-7.css">
+                <link rel="stylesheet" href="styles/large-7.css">
+            <meta charset="utf-8">
+            <meta name="viewport" content="width=device-width, initial-scale=1">
+            <title>Fish Weather Radar</title>
+            <meta name="CIT270 Assignment 4 Weather Site" content= "Weather with a Sci-Fi twist">
+            <body>
+                <header>
+                        <img src="../lesson-4/images/icelogo.png" width="200px">
+                    <h1>Your One Stop for Idaho Ice Fishing</h1>
+                    <div motto>Plan your day the easy way!</div>
+                    <nav class id="menugroup">
+                        
+                        <ul class="mainmenu">
+                            <li class="flexMenu"><a href="#"></a>Home</li>
+                            <li class="flexMenu"><a href="#"></a>Preston</li>
+                            <li class="flexMenu"><a href="#"></a>Soda Springs</li>
+                            <li class="flexMenu"><a href="#"></a>Fish Haven</li>
+                            <li class="flexMenu"><a href="#"></a>Storm Center</li>
+                            <li class="flexMenu"><a href="#"></a>Gallery</li>
+                            </ul>
+                            
+                          </nav>
+                        </head>
+                        
+                </header>
+                <main>
+                        <section>
+                                <span>Current Temp: </span><span id="temp">10</span><span>with a windchill of </span><span id="windchill"> 10</span>
+                            </section>
+                                    <div id="weather">
+                                    <a class="weatherwidget-io" href="https://forecast7.com/en/42d10n111d88/preston/" 
+                                    data-label_1="PRESTON" data-label_2="WEATHER" data-theme="original" >PRESTON WEATHER</a></div>
+        
+        
+                            <p><div class="mapouter"><div class="gmap_canvas">
+                            <iframe width="600" height="500" id="gmap_canvas" src="https://maps.google.com/maps?q=Preston%2C%20&t=&z=13&ie=UTF8&iwloc=&output=embed" frameborder="0" scrolling="no" marginheight="0" marginwidth="0"></iframe>
+                            <a href="https://www.crocothemes.net">crocothemes.net</a>
+                            </div><style>.mapouter{text-align:right;height:500px;width:600px;}.gmap_canvas {overflow:hidden;background:none!important;height:500px;width:600px;}</style></div></p>
+                            
+                            <p>Here you can see a list of Preston, Idaho and locate fishing areas 
+                                    as well as lodging and food if necessary</p>
+        
+                            <script>
+                                    !function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0];if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src='https://weatherwidget.io/js/widget.min.js';fjs.parentNode.insertBefore(js,fjs);}}(document,'script','weatherwidget-io-js');
+                                    </script>
+            
+            </main>
+            </body>
+        <footer>&copy; <span id="full-copyright"></span> Daniel Baker, Rexburg ID <a href="https://byui.edu">BYU-Idaho</a></footer>
+        <script src="scripts/currentdate.js"></script>
+        <script src="scripts/toggleMenu.js"></script>
+        <script src="scripts/windspeed.js"></script>
+        
+    </html>
