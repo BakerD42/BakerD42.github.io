@@ -79,7 +79,14 @@ header, footer, footer a {
     
 }
 
+.grid{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+}
+.grid.image{
+    border: 5px;
 
+}
 
 
 header img {
