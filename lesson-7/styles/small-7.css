@@ -20,6 +20,16 @@
         visibility:hidden;
        }
    }
+   @media screen and (max-width: 499px) {
+    #currentCondition {
+        
+    }
+    #grid{
+        grid-template: 1fr;
+        display: grid;
+        
+    }
+}  
 
 
 body { 
@@ -50,12 +60,13 @@ h2 {
 }
 ul {
     list-style: none;
+    display: inline;
 }
 
 ul.buttons{
     align-content: center;
     list-style: none;
-    display: block;
+    display: inline-block;
     
 }
 
@@ -82,9 +93,11 @@ header, footer, footer a {
 .grid{
     display: grid;
     grid-template-columns: 1fr 1fr 1fr 1fr;
+    padding: 5px;
 }
 .grid.image{
     border: 5px;
+    padding: 5px;
 
 }
 
@@ -92,7 +105,7 @@ header, footer, footer a {
 header img {
     width: 250px;
     height: auto;
-    float: center;
+    justify-content: center;
     padding-bottom: 1cm;
 
 }
