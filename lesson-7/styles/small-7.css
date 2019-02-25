@@ -20,17 +20,6 @@
         visibility:hidden;
        }
    }
-   @media screen and (max-width: 499px) {
-    #currentCondition {
-        
-    }
-    #grid{
-        grid-template: 1fr;
-        display: grid;
-        
-    }
-}  
-
 
 body { 
     font-size: 16px; 
@@ -122,4 +111,14 @@ p {
 footer {
     font-size: 20px;
     
+}
+@media screen and (max-width: 499px) {
+    #currentCondition {
+        
+    }
+    #grid{
+        grid-template: 1fr;
+        display: grid;
+        
+    }
 }
