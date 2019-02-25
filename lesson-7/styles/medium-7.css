@@ -4,7 +4,7 @@
     }
 }
     #grid{
-        grid-template: 1fr 1fr ;
+        grid-template-rows: 1fr 1fr ;
         display: grid;
         padding: 5px;
     }

@@ -117,7 +117,7 @@ footer {
         
     }
     #grid{
-        grid-template: 1fr;
+        grid-template-rows: 1fr;
         display: grid;
         
     }
