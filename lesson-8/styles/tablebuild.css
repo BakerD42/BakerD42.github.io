@@ -1,7 +1,18 @@
 table, tr, td, th{
-    border: 1px solid black;
+    border: .25px solid black;
 }
 
 td {
     text-align: center;
+}
+
+tbody tr:nth-child(even) {
+    background-color: lightblue;
+}
+tbody tr:nth-child(odd) {
+    background-color: green;
+}
+
+tfoot>tr {
+    background-color: #e7f0ed
 }

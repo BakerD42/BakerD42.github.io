@@ -102,8 +102,9 @@ header img {
 h2{
     padding-top: 1cm;
 }
+
 p {
-    text-align: right;
+    text-align: center;
     vertical-align: text-bottom;
     font-size: 20pt;
 }
@@ -121,4 +122,8 @@ footer {
         display: grid;
         
     }
+}
+
+label {
+    display: inline-block;
 }
