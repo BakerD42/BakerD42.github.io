@@ -1,18 +1,28 @@
 table, tr, td, th{
     border: .25px solid black;
-}
-
-td {
     text-align: center;
 }
 
+thead tr:nth-child(1){
+ background-color: #7fb9c2
+}
+tbody th:nth-child(3){
+    background-color: #628ca6;
+}
+tbody tr:nth-child(5) td:nth-child(3) {
+    background-color: #628ca6;
+}
 tbody tr:nth-child(even) {
-    background-color: lightblue;
+    background-color: #e7ffed;
 }
 tbody tr:nth-child(odd) {
-    background-color: green;
+    background-color: #e7f0ed;
+}
+tbody tr:nth-child(6) td:nth-child(1) {
+    font-style: italic;
 }
 
 tfoot>tr {
-    background-color: #e7f0ed
+    background-color: #628ca6;
+    
 }
