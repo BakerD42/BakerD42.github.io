@@ -6,7 +6,7 @@ table, tr, td, th{
 thead tr:nth-child(1){
  background-color: #7fb9c2
 }
-tbody th:nth-child(3){
+tbody th{
     background-color: #628ca6;
 }
 tbody tr:nth-child(5) td:nth-child(3) {
