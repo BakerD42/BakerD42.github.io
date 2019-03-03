@@ -30,32 +30,61 @@
                 </header>
                 <main>
                         <section>
-                                <span>Temp:</span><span id="temp">10</span>
+                                <!--<span>Temp:</span><span id="temp">10</span>-->
                             </section>
                             <form action="thanks.html" method="GET">
                                 <div>
                                 <label for="">Full Name: </label>
-                                <input type="text" id="fullName" name="fullName" required>
+                                <input type="text" id="fullName" name="fullName" placeholder="John Smith" required>
                                 </div>
                                 
                                 <div>
-                                <label for="Email">Email</label>
-                                <input type="email" id="email" name="email" placeholder="user@example.com">
+                                <label for="Email">Email: </label>
+                                <input type="email" id="email" name="email" placeholder="user@example.com" required>
                                 </div>
 
                                 <div>
-                                <label for="Phone Number">Phone Number</label>
-                                <input type="tel" id="phnumb" name="phnumb" required>
+                                <label for="Phone Number">Phone Number: </label>
+                                <input type="tel" id="phnumb" name="phnumb" placeholder="555-555-5555" required>
                                 </div>
 
                                 <div>
-                                <label for="Zip Code">Zip Code</label>
-                                <input type="number" id="zipCode" name="zipcode">
+                                <label for="Zip Code">Zip Code: </label>
+                                <input type="number" id="zipCode" name="zipcode" placeholder="99999">
                                 </div>
 
                                 <div>
-                                <label for="Date">Date</label>
-                                <input type="date" id="date" mane="date">
+                                <label for="Date">Storm Date: </label>
+                                <input type="date" id="date" name="date">
+                                </div>
+
+                                <div>
+                                <label for="Storm">Storm Type: </label>
+                                <input list="storms" id="type" name="type">
+                                </div>
+
+                                <datalist id="storms">
+                                    <option value="Tornado"></option>
+                                    <option value="Hurricane"></option>
+                                    <option value="Thunder Storm"></option>
+                                    <option value="Hail"></option>
+                                    <option value="Flash Flood"></option>
+                                </datalist>
+
+                                <div>
+                                    <label for="Severity">Storm Severity: </label>
+                                    <input type="range" min="1" max="10" value="5">
+                                </div>
+
+                                <div>
+                                    <label for="danger">User In Danger? </label>
+                                    <input type="radio" name="indanger" value="Yes"> Yes<br>
+                                    <input type="radio" name="indanger" value="No"> No<br>
+                                </div>
+
+                                <div>
+                                    <label for="comments">Additional details: </label>
+                                    <textarea rows="4" cols="50">Enter additional details about the storm</textarea>
                                 </div>
                                 
                                 <div>

@@ -124,6 +124,8 @@ footer {
     }
 }
 
-label {
-    display: inline-block;
+input[type=text] {
+    display: center;
+    padding: 15px, 15px, 15px 0;
 }
+
