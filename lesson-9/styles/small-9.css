@@ -1,0 +1,131 @@
+/* CIT 230 - Assignment Portal CSS Template */
+/* You may use #HEX or color names */
+
+/* * is a wildcard referring to all elements. */
+* { margin: 0; box-sizing: border-box; } 
+@media screen and (max-width: 700px) {
+        #weather {
+        visibility:hidden;
+        }
+        
+    body {
+      background-color: blue;
+      
+    }
+  }
+
+@media screen and (max-width: 700px) {
+       #menugroup{
+
+        visibility:hidden;
+       }
+   }
+
+body { 
+    font-size: 16px; 
+    line-height: 16px;
+    font-family: 'Iceland', 'cursive';
+    color: black;
+    height: 1900px;
+    
+}
+
+h1 {
+    font-size: 32px;
+    text-align: center;
+    font-family: 'Iceland', 'cursive';
+    color: black;
+    height: 75px;
+    
+}
+
+h2 {
+    font-size: 28px;
+    text-align: center;
+    font-family: 'Iceland', 'cursive';
+    color: rgb(7, 7, 26);
+    font-style: oblique;
+
+}
+ul {
+    list-style: none;
+    display: inline;
+}
+
+ul.buttons{
+    align-content: center;
+    list-style: none;
+    display: inline-block;
+    
+}
+
+ul.buttons li a:hover{
+    text-decoration: none;
+    color: green;
+    background-color: grey;
+}
+header, main, footer {
+    margin: auto;
+    padding: 3rem;
+    color: black;
+    font-weight: bold;
+    
+}
+
+header, footer, footer a {
+    text-align: center;
+    background-color: grey;
+    color: silver;
+    
+}
+
+.grid{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    padding: 5px;
+}
+.grid.image{
+    border: 5px;
+    padding: 5px;
+
+}
+
+
+header img {
+    width: 250px;
+    height: auto;
+    justify-content: center;
+    padding-bottom: 1cm;
+
+}
+
+h2{
+    padding-top: 1cm;
+}
+
+p {
+    text-align: center;
+    vertical-align: text-bottom;
+    font-size: 20pt;
+}
+
+footer {
+    font-size: 20px;
+    
+}
+@media screen and (max-width: 499px) {
+    #currentCondition {
+        
+    }
+    #grid{
+        grid-template-rows: 1fr;
+        display: grid;
+        
+    }
+}
+
+input[type=text] {
+    display: center;
+    padding: 15px, 15px, 15px 0;
+}
+
