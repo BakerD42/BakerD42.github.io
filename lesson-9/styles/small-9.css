@@ -1,131 +1,48 @@
-/* CIT 230 - Assignment Portal CSS Template */
-/* You may use #HEX or color names */
+/* || general styles */
 
-/* * is a wildcard referring to all elements. */
-* { margin: 0; box-sizing: border-box; } 
-@media screen and (max-width: 700px) {
-        #weather {
-        visibility:hidden;
-        }
-        
-    body {
-      background-color: blue;
-      
-    }
-  }
-
-@media screen and (max-width: 700px) {
-       #menugroup{
-
-        visibility:hidden;
-       }
-   }
-
-body { 
-    font-size: 16px; 
-    line-height: 16px;
-    font-family: 'Iceland', 'cursive';
-    color: black;
-    height: 1900px;
-    
+html {
+  font-family: 'helvetica neue', helvetica, arial, sans-serif;
 }
 
+body {
+  width: 800px;
+  margin: 0 auto;
+}
+
+h1, h2 {
+  font-family: 'Faster One', cursive;
+}
+
+/* header styles */
+
 h1 {
-    font-size: 32px;
-    text-align: center;
-    font-family: 'Iceland', 'cursive';
-    color: black;
-    height: 75px;
-    
+  font-size: 4rem;
+  text-align: center;
+}
+
+header p {
+  font-size: 1.3rem;
+  font-weight: bold;
+  text-align: center;
+}
+
+/* section styles */
+
+section article {
+  width: 33%;
+  float: left;
+}
+
+section p {
+  margin: 5px 0;
+}
+
+section ul {
+  margin-top: 0;
 }
 
 h2 {
-    font-size: 28px;
-    text-align: center;
-    font-family: 'Iceland', 'cursive';
-    color: rgb(7, 7, 26);
-    font-style: oblique;
-
+  font-size: 2.5rem;
+  letter-spacing: -5px;
+  margin-bottom: 10px;
 }
-ul {
-    list-style: none;
-    display: inline;
-}
-
-ul.buttons{
-    align-content: center;
-    list-style: none;
-    display: inline-block;
-    
-}
-
-ul.buttons li a:hover{
-    text-decoration: none;
-    color: green;
-    background-color: grey;
-}
-header, main, footer {
-    margin: auto;
-    padding: 3rem;
-    color: black;
-    font-weight: bold;
-    
-}
-
-header, footer, footer a {
-    text-align: center;
-    background-color: grey;
-    color: silver;
-    
-}
-
-.grid{
-    display: grid;
-    grid-template-columns: 1fr 1fr 1fr 1fr;
-    padding: 5px;
-}
-.grid.image{
-    border: 5px;
-    padding: 5px;
-
-}
-
-
-header img {
-    width: 250px;
-    height: auto;
-    justify-content: center;
-    padding-bottom: 1cm;
-
-}
-
-h2{
-    padding-top: 1cm;
-}
-
-p {
-    text-align: center;
-    vertical-align: text-bottom;
-    font-size: 20pt;
-}
-
-footer {
-    font-size: 20px;
-    
-}
-@media screen and (max-width: 499px) {
-    #currentCondition {
-        
-    }
-    #grid{
-        grid-template-rows: 1fr;
-        display: grid;
-        
-    }
-}
-
-input[type=text] {
-    display: center;
-    padding: 15px, 15px, 15px 0;
-}
-
