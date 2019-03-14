@@ -1,5 +1,5 @@
-var townData = {
-    
+var townData =      
+          {
         "towns" : [
         {
           "name": "Franklin",
@@ -89,13 +89,19 @@ var townData = {
        ]
       };
 
-      document.getElementById("townData").innerHTML = `<h1>Local Town Results</h1>`;
+      document.getElementById("townData").innerHTML = `
+      <h1 class="appTitle">Local Town History ${townData.length}</h1>
+      ${townData}
+      <p>these few towns here</p>
+      `
+      /*document.write(townData.towns[0].name);
       document.write(townData.towns[0].motto);
-      document.write(townData.towns[1].motto);
+      document.write(townData.towns[0].yearFounded);
+      document.write(townData.towns[0])*/
 
-      /*for (var i = 0; i < townData.towns[i].length; i++) {
+      for (var i = 0; i < townData.towns[i].length; i++) {
           if (i === 2 || i ===3){
               continue;
           }
           document.write(townData.towns[i].name);
-      }*/
+      }
