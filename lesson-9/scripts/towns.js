@@ -1,59 +1,65 @@
-var header = document.querySelector('header');
-var section = document.querySelector('section');
-var requestURL = 'https://byui-cit230.github.io/weather/data/towndata.json';
-var request = new XMLHttpRequest();
-request.open('GET', requestURL);
-request.responseType = 'json';
-request.send();
+var header = document.querySelector('header'); 
+var section = document.querySelector('section'); 
 
-request.onload = function() {
-    var townData = request.response;
-    populateHeader(townData);
-    showTown(townData);
-  }
 
-  function populateHeader(jsonObj) {
-    var myH1 = document.createElement('h1');
-    myH1.textContent = jsonObj['townName'];
-    header.appendChild(myH1);
-  }
-    
-  
-  
-  
-  
-  function showTown(jsonObj) {
-    var townData = jsonObj['towns'];
-        
-    for (var i = 0; i < townData.length; i++) {
-      var myArticle = document.createElement('article');
-      var myH2 = document.createElement('h2');
-      var myPara1 = document.createElement('p');
-      var myPara2 = document.createElement('p');
-      var myPara3 = document.createElement('p');
-      var myList = document.createElement('ul');
-  
-      myH2.textContent = townData[i].townName;
-      myPara1.textContent = 'Year Founded: ' + townData[i].yearFounded;
-      myPara2.textContent = 'Current Population: ' + townData[i].currentPopulation;
-      myPara3.textContent = 'Events: ';
-          
-      var events = townData[i].events;
-      for (var j = 0; j < events.length; j++) {
-        var listItem = document.createElement('li');
-        listItem.textContent = event[j];
-        myList.appendChild(listItem);
-      }
-  
-      myArticle.appendChild(myH2);
-      myArticle.appendChild(myPara1);
-      myArticle.appendChild(myPara2);
-      myArticle.appendChild(myPara3);
-      myArticle.appendChild(myList);
+var requestURL = 'https://byui-cit230.github.io/weather/data/towndata.json'; 
 
-      section.appendChild(myArticle);
-    }
-  }
+
+var request = new XMLHttpRequest(); 
+
+
+request.open('GET', requestURL); 
+request.responseType = 'json'; 
+request.send(); 
+
+request.onload = function() { 
+var townData = request.response; 
+populateHeader(townData); 
+showTown(townData); 
+} 
+
+function populateHeader(jsonObj) { 
+var myH1 = document.createElement('h1'); 
+myH1.textContent = jsonObj['name']; 
+header.appendChild(myH1); 
+} 
+
+
+
+
+
+function showTown(jsonObj) { 
+var townData = jsonObj['towns']; 
+
+for (var i = 0; i < townData.length; i++) { 
+var myArticle = document.createElement('article'); 
+var myH2 = document.createElement('h2'); 
+var myPara1 = document.createElement('p'); 
+var myPara2 = document.createElement('p'); 
+var myPara3 = document.createElement('p'); 
+var myList = document.createElement('ul'); 
+
+myH2.textContent = townData[i].townName; 
+myPara1.textContent = 'Year Founded: ' + townData[i].yearFounded; 
+myPara2.textContent = 'Current Population: ' + townData[i].currentPopulation; 
+myPara3.textContent = 'Events: '; 
+
+var events = townData[i].events; 
+for (var j = 0; j < events.length; j++) { 
+var listItem = document.createElement('li'); 
+listItem.textContent = event[j]; 
+myList.appendChild(listItem); 
+} 
+
+myArticle.appendChild(myH2); 
+myArticle.appendChild(myPara1); 
+myArticle.appendChild(myPara2); 
+myArticle.appendChild(myPara3); 
+myArticle.appendChild(myList); 
+
+section.appendChild(myArticle); 
+} 
+} 
 
 
 
