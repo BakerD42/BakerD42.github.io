@@ -49,7 +49,7 @@ function populateHeader(jsonObj) {
       section.appendChild(myArticle);
     }
   }
-
+}
 
 
 /*var i = 0;
@@ -159,4 +159,4 @@ for (var i = 0; i < townData.length; i++) {
     document.write('<h2 class="townName">' + townData[i].currentPopulation + '</h2>'),
     document.write('<h2 class="townName">' + townData[i].averageRainfall + '</h2>');
   }
-  }*/}
+  }*/
