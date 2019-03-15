@@ -7,16 +7,21 @@ request.responseType = 'json';
 request.send();
 
 request.onload = function() {
-  var townData = request.response;
-  populateHeader(townData);
-  showTown(townData);
-}
+    var townData = request.response;
+    populateHeader(townData);
+    showTown(townData);
+  }
 
-function populateHeader(jsonObj) {
-  var myH1 = document.createElement('h1');
-  myH1.textContent = jsonObj['townName'];
-  header.appendChild(myH1);
-
+  function populateHeader(jsonObj) {
+    var myH1 = document.createElement('h1');
+    myH1.textContent = jsonObj['townName'];
+    header.appendChild(myH1);
+  }
+    
+  
+  
+  
+  
   function showTown(jsonObj) {
     var townData = jsonObj['towns'];
         
@@ -45,11 +50,11 @@ function populateHeader(jsonObj) {
       myArticle.appendChild(myPara2);
       myArticle.appendChild(myPara3);
       myArticle.appendChild(myList);
-  
+
       section.appendChild(myArticle);
     }
   }
-}
+
 
 
 /*var i = 0;
