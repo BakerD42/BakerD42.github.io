@@ -1,4 +1,58 @@
-var i = 0;
+var header = document.querySelector('header');
+var section = document.querySelector('section');
+var requestURL = 'https://byui-cit230.github.io/weather/data/towndata.json';
+var request = new XMLHttpRequest();
+request.open('GET', requestURL);
+request.responseType = 'json';
+request.send();
+
+request.onload = function() {
+  var townData = request.response;
+  populateHeader(townData);
+  showTown(townData);
+}
+
+function populateHeader(jsonObj) {
+  var myH1 = document.createElement('h1');
+  myH1.textContent = jsonObj['townName'];
+  header.appendChild(myH1);
+
+  function showTown(jsonObj) {
+    var townData = jsonObj['towns'];
+        
+    for (var i = 0; i < townData.length; i++) {
+      var myArticle = document.createElement('article');
+      var myH2 = document.createElement('h2');
+      var myPara1 = document.createElement('p');
+      var myPara2 = document.createElement('p');
+      var myPara3 = document.createElement('p');
+      var myList = document.createElement('ul');
+  
+      myH2.textContent = townData[i].townName;
+      myPara1.textContent = 'Year Founded: ' + townData[i].yearFounded;
+      myPara2.textContent = 'Current Population: ' + townData[i].currentPopulation;
+      myPara3.textContent = 'Events: ';
+          
+      var events = townData[i].events;
+      for (var j = 0; j < events.length; j++) {
+        var listItem = document.createElement('li');
+        listItem.textContent = event[j];
+        myList.appendChild(listItem);
+      }
+  
+      myArticle.appendChild(myH2);
+      myArticle.appendChild(myPara1);
+      myArticle.appendChild(myPara2);
+      myArticle.appendChild(myPara3);
+      myArticle.appendChild(myList);
+  
+      section.appendChild(myArticle);
+    }
+  }
+
+
+
+/*var i = 0;
 const townData = [
   {
     name: "Franklin",
@@ -11,6 +65,7 @@ const townData = [
       "Sept 5th - 11th: Founder Days",
       "December 1st - 26th: Christmas in the Heart"
     ]
+    
   },
   {
     name: "Fish Haven",
@@ -85,12 +140,23 @@ const townData = [
     }
 ];         
 for (var i = 0; i < townData.length; i++) {
-  if (i === 1 || i === 4 || i === 5 || i === 6 || i === 7){
-      continue;
+  if (townData[i].name === 'Soda Springs'){ 
+    document.write('<h2 class="townName">' + townData[i].name + '</h2>'),
+    document.write('<h2 class="townName">' + townData[i].motto + '</h2>'),
+    document.write('<h2 class="townName">' + townData[i].yearFounded + '</h2>'),
+    document.write('<h2 class="townName">' + townData[i].currentPopulation + '</h2>'),
+    document.write('<h2 class="townName">' + townData[i].averageRainfall + '</h2>');
+  } else if (townData[i].name ==='Preston') {
+    document.write('<h2 class="townName">' + townData[i].name + '</h2>'),
+    document.write('<h2 class="townName">' + townData[i].motto + '</h2>'),
+    document.write('<h2 class="townName">' + townData[i].yearFounded + '</h2>'),
+    document.write('<h2 class="townName">' + townData[i].currentPopulation + '</h2>'),
+    document.write('<h2 class="townName">' + townData[i].averageRainfall + '</h2>');
+  } else if (townData[i].name ==='Fish Haven'){
+    document.write('<h2 class="townName">' + townData[i].name + '</h2>'),
+    document.write('<h2 class="townName">' + townData[i].motto + '</h2>'),
+    document.write('<h2 class="townName">' + townData[i].yearFounded + '</h2>'),
+    document.write('<h2 class="townName">' + townData[i].currentPopulation + '</h2>'),
+    document.write('<h2 class="townName">' + townData[i].averageRainfall + '</h2>');
   }
-  document.write('<h1>' + townData[i].name + '</h1>')
-  document.write('<h2>' + townData[i].motto + '</h2>')
-  document.write('<h3>' + townData[i].yearFounded + '</h3>')
-  document.write('<h4>' + townData[i].currentPopulation + '</h4>')
-  
-} 
+  }*/}
