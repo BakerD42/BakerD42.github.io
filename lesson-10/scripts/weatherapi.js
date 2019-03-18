@@ -7,7 +7,7 @@ weatherRequest.onload = function () {
     var weatherData = JSON.parse(weatherRequest.responseText);
     console.log(weatherData);
 
-    // document.getElementById("current-temp").innerHTML = weatherData.main.temp;
+    document.getElementById("current-temp").innerHTML = weatherData.main.temp;
 }
 
 // 7a7bd0cc92fa44b75a7c863f9ba055a4
