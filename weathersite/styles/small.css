@@ -5,7 +5,8 @@
   }  
   /* header styles */
   header img{
-      float: center;
+      justify-content: center;
+      width: 200px;
   }
   
   h1, h2 {
