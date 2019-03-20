@@ -22,4 +22,5 @@
   #buttons {
       font-family: "Iceland", 'cursive';
       text-align: center;
+      list-style: none;
   }
