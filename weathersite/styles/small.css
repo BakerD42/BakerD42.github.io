@@ -4,6 +4,9 @@
     margin: 0 auto;
   }  
   /* header styles */
+  header img{
+      float: center;
+  }
   
   h1, h2 {
     font-size: 32px;
