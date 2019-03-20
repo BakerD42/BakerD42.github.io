@@ -5,7 +5,7 @@
   }  
   /* header styles */
   
-  h1, h2 {
+  h1, h2, #motto {
     font-size: 4rem;
     text-align: center;
     font-family: 'Iceland', 'cursive';
