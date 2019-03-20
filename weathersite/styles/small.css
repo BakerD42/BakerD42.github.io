@@ -1,23 +1,14 @@
 /* || general styles */
-
-html {
-    
-  }
-  
   body {
     width: 800px;
     margin: 0 auto;
-  }
-  
-  h1, h2 {
-    font-family: 'Faster One', cursive;
-  }
-  
+  }  
   /* header styles */
   
-  h1 {
+  h1, h2 {
     font-size: 4rem;
     text-align: center;
+    font-family: 'Iceland', 'cursive';
   }
   
   header p {
@@ -28,10 +19,6 @@ html {
   
   /* section styles */
   
-  section article {
-    width: 33%;
-    float: left;
-  }
   
   section p {
     margin: 5px 0;
