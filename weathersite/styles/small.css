@@ -17,19 +17,9 @@
     text-align: center;
   }
   
-  /* section styles */
-  
-  
-  section p {
-    margin: 5px 0;
-  }
-  
-  section ul {
-    margin-top: 0;
-  }
-  
-  h2 {
-    font-size: 2.5rem;
-    letter-spacing: -5px;
-    margin-bottom: 10px;
+  /* body styles */
+
+  #buttons {
+      font-family: "Iceland", 'cursive';
+      text-align: center;
   }
