@@ -5,8 +5,8 @@ body {
     margin: 0 auto;
   }  
   /* header styles */
-  header img{
-      justify-content: center;
+  .titleimage{
+      align-content: center;
       width: 200px;
   }
   
