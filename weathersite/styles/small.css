@@ -1,5 +1,6 @@
 /* || general styles */
-  body {
+  
+body {
     width: 800px;
     margin: 0 auto;
   }  
@@ -33,3 +34,8 @@
       text-align: center;
       list-style: none;
   }
+  @media screen and (max-width: 700px) {
+    #weather {
+    visibility:hidden;
+    }
+}
