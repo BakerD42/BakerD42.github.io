@@ -37,6 +37,9 @@ body {
       text-align: center;
       list-style: none;
   }
+  section{
+    grid-auto-columns: auto auto auto auto auto;
+  }
   @media screen and (max-width: 700px) {
     #weather {
     visibility:hidden;
