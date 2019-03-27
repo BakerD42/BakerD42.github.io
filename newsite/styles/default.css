@@ -1,7 +1,18 @@
+/* Twitter Feed */
 #sidebox{
     position: absolute;
     right: 50px;
     width: 250px;
-    height: 400px;
+    height: 550px;
     border: 3px solid blue;
+}
+
+/* Header Title */
+h1{
+    text-align: center;
+    background-image: url(../images/headerart.jpg)
+}
+/* Header Image */
+img{
+    width: 500px;
 }
