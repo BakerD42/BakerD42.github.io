@@ -1,7 +1,7 @@
 #sidebox{
-    display: flex;
-    justify-content: right;
-    width: 100px;
-    height: 120px;
+    position: absolute;
+    right: 50px;
+    width: 250px;
+    height: 400px;
     border: 3px solid blue;
 }
