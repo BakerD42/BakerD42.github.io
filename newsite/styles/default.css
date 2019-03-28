@@ -1,5 +1,8 @@
 /* Twitter Feed */
-#sidebox{
+html{
+    font-family: 'Audiowide';
+}
+/* #rightbox{ 
     position: absolute;
     right: 50px;
     width: 250px;
@@ -7,12 +10,46 @@
     border: 3px solid blue;
 }
 
+#centerbox{
+    position: absolute;
+    left: 410px;
+    right: 310px;
+}
+
+#leftbox{
+    position: absolute;
+    left: 50px;
+    z-index: -1;
+    width: 350px;
+}
+#bodytitle{
+    text-align: center;
+}
+*/
 /* Header Title */
 h1{
     text-align: center;
-    background-image: url(../images/headerart.jpg)
+    height: 100px;
+    width: 940px;
+    background-color: rgb(185, 70, 13)
+    /*background-image: url(../images/headerart.jpg) */
+}
+
+.container{
+    grid-template-columns: 350px, auto, 400px;
+    grid-template-rows: auto, auto, auto;
 }
 /* Header Image */
-img{
-    width: 500px;
+body {
+    left: 75px;
+    width: 800px;
+    background-color: rgb(110, 109, 109);
+    height: 600px;
+    /* background-image: url(../images/backdrop.jpg) */
+    
+}
+footer{
+bottom: 0;
+width: 100%;
+
 }
