@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+    <html lang="en-us">
+        
+        <head>
+                <link href="https://fonts.googleapis.com/css?family=Iceland" rel="stylesheet"> 
+                <link rel="normalize" href="lesson-8/styles/normalize.css">
+                <link rel="stylesheet" href="lesson-8/styles/small-8.css">
+                <link rel="stylesheet" href="lesson-8/styles/large-8.css">
+            <meta charset="utf-8">
+            <meta name="viewport" content="width=device-width, initial-scale=1">
+            <title>Fish Weather Radar</title>
+            <meta name="CIT270 Assignment 4 Weather Site" content= "Weather with a Sci-Fi twist">
+            <body>
+                <header>
+                        <img src="../lesson-4/images/icelogo.png" width="200px">
+                    <h1>Your One Stop for Idaho Ice Fishing</h1>
+                    <div motto>Plan your day the easy way!</div>
+                    <nav>
+                        
+                        <ul id="buttons">
+                            <li><a href="home.html">HOME</a></li>
+                            <li><a href="preston.html">PRESTON</a></li>
+                            <li><a href="sodasprings.html">SODA SPRINGS</a></li>
+                            <li><a href="fishhaven.html">FISH HAVEN</a></li>
+                            <li><a href="stormcenter.html">STORM CENTER</a></li>
+                            <li><a href="../lesson-7/gallary-7.html">GALLERY</a></li>
+                            </ul>
+                    </nav>
+                        </head>
+                </header>
+                <main>
+                        <section>
+                                <!--<span>Temp:</span><span id="temp">10</span>-->
+                            </section>
+                            <form action="thanks.html" method="GET">
+                                <div>
+                                <label for="">Full Name: </label>
+                                <input type="text" id="fullName" name="fullName" placeholder="John Smith" required>
+                                </div>
+                                
+                                <div>
+                                <label for="Email">Email: </label>
+                                <input type="email" id="email" name="email" placeholder="user@example.com" required>
+                                </div>
+
+                                <div>
+                                <label for="Phone Number">Phone Number: </label>
+                                <input type="tel" id="phnumb" name="phnumb" placeholder="555-555-5555" required>
+                                </div>
+
+                                <div>
+                                <label for="Zip Code">Zip Code: </label>
+                                <input type="number" id="zipCode" name="zipcode" placeholder="99999">
+                                </div>
+
+                                <div>
+                                <label for="Date">Storm Date: </label>
+                                <input type="date" id="date" name="date">
+                                </div>
+
+                                <div>
+                                <label for="Storm">Storm Type: </label>
+                                <input list="storms" id="type" name="type">
+                                </div>
+
+                                <datalist id="storms">
+                                    <option value="Tornado"></option>
+                                    <option value="Hurricane"></option>
+                                    <option value="Thunder Storm"></option>
+                                    <option value="Hail"></option>
+                                    <option value="Flash Flood"></option>
+                                </datalist>
+
+                                <div>
+                                    <label for="Severity">Storm Severity: </label>
+                                    <input type="range" min="1" max="10" value="5">
+                                </div>
+
+                                <div>
+                                    <label for="danger">User In Danger? </label>
+                                    <input type="radio" name="indanger" value="Yes"> Yes<br>
+                                    <input type="radio" name="indanger" value="No"> No<br>
+                                </div>
+
+                                <div>
+                                    <label for="comments">Additional details: </label>
+                                    <textarea rows="4" cols="50">Enter additional details about the storm</textarea>
+                                </div>
+                                
+                                <div>
+                                    <input type="submit" value="submit">
+                                </div>
+
+
+                                
+                                
+                            </form>
+                    <p>MAIN PAGE</p>
+            
+            </main>
+            </body>
+        <footer>&copy; <span id="full-copyright"></span> Daniel Baker, Rexburg ID <a href="https://byui.edu">BYU-Idaho</a></footer>
+        <script src="scripts/currentdate.js"></script>
+        <script src="scripts/toggleMenu.js"></script>
+    
+        
+        
+    </html>
