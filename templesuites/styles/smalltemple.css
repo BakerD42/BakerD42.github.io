@@ -1,0 +1,7 @@
+.grid div:nth-child() {
+    background-color: red;
+
+}
+.grid div:nth-child(even){
+    background-color: blue;
+}

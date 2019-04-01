@@ -1,9 +1,0 @@
-.grid-container{
-    display: grid;
-    grid-template-columns: 300px auto 300px;
-    background-color: grey;
-    padding: 10px;
-}
-.grid-item{
-    background-color: green;
-}
