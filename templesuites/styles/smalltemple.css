@@ -1,7 +1,17 @@
-.grid div:nth-child() {
-    background-color: red;
+.grid{
+    display: grid;
+    grid-template-areas: 
+    "logo menu menu menu"
+    "ammentities Description Description Map"
+    "ammentities Description Description Map"
+    "ammentities Description Description Image"
+    "ammentities Description Description Image"
+    "Footer Footer Footer Footer" 
+}
 
-}
-.grid div:nth-child(even){
-    background-color: blue;
-}
+/* .grid div:nth-child(odd) { */
+    /* background-color: red; */
+
+
+/* .grid div:nth-child(even){ */
+    /* background-color: blue; */
