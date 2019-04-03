@@ -6,7 +6,18 @@ img{
     grid-template-columns: 1fr 1fr 1fr;
 }
 .menu{
-    grid-column-end: span 1;
+    grid-column-end: span 2;
+}
+
+.ammentities{
+    grid-row-start: 2;
+}
+
+.Image{
+    grid-column-start: 3;
+}
+.Footer{
+    grid-row-start: 3;
 }
 
 /* .grid div:nth-child(odd) { */
