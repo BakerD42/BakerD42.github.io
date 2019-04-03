@@ -1,12 +1,12 @@
+img{
+    justify-content: left;
+}
 .grid{
     display: grid;
-    grid-template-areas: 
-    "logo menu menu menu"
-    "ammentities Description Description Map"
-    "ammentities Description Description Map"
-    "ammentities Description Description Image"
-    "ammentities Description Description Image"
-    "Footer Footer Footer Footer" 
+    grid-template-columns: 1fr 1fr 1fr;
+}
+.menu{
+    grid-column-end: span 1;
 }
 
 /* .grid div:nth-child(odd) { */
