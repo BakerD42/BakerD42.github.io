@@ -4,15 +4,26 @@
 }
 .menu{
     grid-column-end: span 2;
+    background-color: azure;
 }
-
+.logo{
+    background-color: azure;
+}
 .ammentities{
     grid-row-start: 2;
 }
-
 .Image{
     grid-column-start: 3;
 }
 .Footer{
     grid-row-start: 3;
+    grid-column-start: 1;
+    grid-column-end: 3;
+    text-align: center;
+}
+.contact{
+    grid-row-start: 4;
+    grid-column-start: 1;
+    grid-column-end: 3;
+    text-align: center;
 }
