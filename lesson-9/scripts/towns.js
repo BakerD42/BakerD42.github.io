@@ -24,36 +24,36 @@ showTown(townData);
 // section.appendChild(myH1); 
 // } 
 
-function showTown(jsonObj) { 
-var townData = jsonObj['towns']; 
+function showTown(jsonObj) {   
+  var townData = jsonObj['towns']; 
 
-for (var i = 0; i < townData.length; i++) {
+  for (var i = 0; i < townData.length; i++) {
   if (i === 0 || i === 2 || i === 3  || i === 6){
     continue;
   } 
-var myArticle = document.createElement('article'); 
-var myH2 = document.createElement('h2'); 
-myH2.className += "townheader"; 
-var myPara1 = document.createElement('p'); 
-myPara1.className += "townpara";
-var myPara2 = document.createElement('p'); 
-myPara2.className += "townpara";
-var myPara3 = document.createElement('p'); 
-myPara3.className += "townpara";
-var myList = document.createElement('ul'); 
-myList.className += "townevent";
+  var myArticle = document.createElement('article'); 
+  var myH2 = document.createElement('h2'); 
+  myH2.className += "townheader"; 
+  var myPara1 = document.createElement('p'); 
+  myPara1.className += "townpara";
+  var myPara2 = document.createElement('p'); 
+  myPara2.className += "townpara";
+  var myPara3 = document.createElement('p'); 
+  myPara3.className += "townpara";
+  var myList = document.createElement('ul'); 
+  myList.className += "townevent";
 
   
-myH2.textContent = townData[i].name; 
-myPara1.textContent = 'Year Founded: ' + townData[i].yearFounded; 
-myPara2.textContent = 'Current Population: ' + townData[i].currentPopulation; 
-myPara3.textContent = 'Events: '; 
+  myH2.textContent = townData[i].name; 
+  myPara1.textContent = 'Year Founded: ' + townData[i].yearFounded; 
+  myPara2.textContent = 'Current Population: ' + townData[i].currentPopulation; 
+  myPara3.textContent = 'Events: '; 
 
-var events = townData[i].events; 
-for (var j = 0; j < events.length; j++) { 
-var listItem = document.createElement('li'); 
-listItem.textContent = events[j]; 
-myList.appendChild(listItem); 
+  var events = townData[i].events; 
+  for (var j = 0; j < events.length; j++) { 
+  var listItem = document.createElement('li'); 
+  listItem.textContent = events[j]; 
+  myList.appendChild(listItem); 
 } 
 
 var myimage = document.createElement('img');
