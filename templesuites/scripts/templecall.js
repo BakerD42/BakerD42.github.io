@@ -8,6 +8,6 @@ templeRequest.onload = function () {
     var templeData = JSON.parse(templeRequest.responseText);
     console.log(templeData);
 
-    document.getElementById("denverdescription").innerHTML = templeData.denverdescription;
+    document.getElementById("denverdescription").innerHTML = denverdescription;
     // name containers and place containters in various areas of site page
 }
