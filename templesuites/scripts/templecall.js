@@ -9,5 +9,6 @@ templeRequest.onload = function () {
     console.log(templeData);
 
     document.getElementById("denverdescription").innerHTML = denverdescription;
+    document.getElementById("denverservices").innerHTML = denverservices;
     // name containers and place containters in various areas of site page
 }
