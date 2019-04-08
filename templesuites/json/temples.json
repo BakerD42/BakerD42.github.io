@@ -13,9 +13,13 @@
 			],
 			"services": [
 				{ "service": "Clothing rental available" },
-				{ "service": "Distribution Center nearby"}]
+				{ "service": "Distribution Center nearby"}],
+			"description": "This place of worship sits on a butte overlooking Rexburg. Since you need to be LDS to enter the temple, other visitors would enjoy driving by to see the architecture and beautiful grounds. Next to BYU-Idaho campus, It's easy to spot from I-15 and there are road signs to direct you."
+			
+			
+			
 
-				
+
 		},
 		{
 			"name": "Denver Colorado Temple",
@@ -35,7 +39,8 @@
 			],
 			"services": [
 				{ "services": "Clothing rental available" },
-				{ "services": "Distribution center nearby" }]
+				{ "services": "Distribution center nearby" }],
+			"description": "The LDS Church announced plans to build a temple in Colorado on March 31, 1982. Almost two years later, Gordon B. Hinckley presided over the site dedication and groundbreaking. Hand-carved woodwork adorns the temple interior, along with hand-painted designs on the walls and ceilings. The temple also features more than six hundred square feet of specially designed stained glass windows. The temple is situated on a hilltop in Centennial that was once part of a golf course and country club."
 
 
 		},
@@ -58,7 +63,8 @@
 			"services": [
 				{ "services": "Clothing rental available"},
 				{ "services": "Cafeteria available"},
-				{ "services": "Distribution Center nearby"}]
+				{ "services": "Distribution Center nearby"}],
+			"description": "The Seattle Washington Temple (formerly the Seattle Temple) is the 21st constructed and 19th operating temple of The Church of Jesus Christ of Latter-day Saints (LDS Church). Located in the city of Bellevue, Washington, it has a modern single-spire design. Due to its proximity to the Bellevue Airfield, the proposed height of the spire was reduced, and a red strobe warning light was installed at the base of the angel Moroni statue. In 1983 the Bellevue Airfield closed, and the light was shut off."
 
 
 		},
@@ -81,7 +87,8 @@
 			"services": [
 				{ "services": "Clothing rental available"},
 				{ "services": "Cafeteria available"},
-				{ "services":	"Distribution Center nearby"}]
+				{ "services":	"Distribution Center nearby"}],
+			"description": "The Mt Timpanogos temple features numerous stained-glass windows that utilize a new technique which allows the windows to maintain their beauty and majesty when viewed under reflected light. This makes it so their full color is visible from the exterior during the daytime and from the inside at night."
 
 
 		}
