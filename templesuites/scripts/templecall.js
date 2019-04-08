@@ -1,5 +1,5 @@
 let templeRequest = new XMLHttpRequest();
-templeRequest.open ('GET', "/json/temples.json",true);
+templeRequest.open ('GET', "../json/temples.json",true);
 templeRequest.send();
 
 
