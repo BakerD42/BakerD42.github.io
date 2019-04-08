@@ -1,5 +1,5 @@
 [
-		{
+		{	
 			"name": "Rexburg Idaho Temple",
 			"location": "Rexburg, Idaho, United States",
 			"closures": [{
@@ -21,7 +21,7 @@
 
 
 		},
-		{
+		{	
 			"denvername": "Denver Colorado Temple",
 			"denverlocation": "Denver, Colorado, United States",
 			"denverclosures": [{
@@ -44,7 +44,7 @@
 
 
 		},
-		{
+		{	
 			"name": "Seattle Washington Temple",
 			"location": "Bellevue, Washington, United States",
 			"closures": [{
@@ -68,7 +68,7 @@
 
 
 		},
-		{
+		{	
 			"name": "Mt. Timpanogas Temple",
 			"location": "American Fork, Utah, United States",
 			"closures": [{
