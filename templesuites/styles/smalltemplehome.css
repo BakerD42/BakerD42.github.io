@@ -20,6 +20,9 @@
 .ammentities{
     grid-row-start: 2;
 }
+.Description{
+    grid-column-start: 2;
+}
 .Map{
     grid-column-start: 3;
     grid-row-start: 3;

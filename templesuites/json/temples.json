@@ -1,5 +1,5 @@
-{
-	"temples": [{
+[
+		{
 			"name": "Rexburg Idaho Temple",
 			"location": "Rexburg, Idaho, United States",
 			"closures": [{
@@ -11,9 +11,11 @@
 					"end": "2019-04-29"
 				}
 			],
-			"services": [{
-				"name": "Clothing rental available, Distribution Center nearby"
-			}]
+			"services": [
+				{ "service": "Clothing rental available" },
+				{ "service": "Distribution Center nearby"}]
+
+				
 		},
 		{
 			"name": "Denver Colorado Temple",
@@ -31,7 +33,11 @@
 					"end": "2019-05-10"
 				}
 			],
-			"services": "Clothing rental available, Distribution center nearby"
+			"services": [
+				{ "services": "Clothing rental available" },
+				{ "services": "Distribution center nearby" }]
+
+
 		},
 		{
 			"name": "Seattle Washington Temple",
@@ -49,7 +55,12 @@
 					"end": "2019-09-02"
 				}
 			],
-			"services": "Clothing rental available, Cafeteria available, Distribution Center nearby"
+			"services": [
+				{ "services": "Clothing rental available"},
+				{ "services": "Cafeteria available"},
+				{ "services": "Distribution Center nearby"}]
+
+
 		},
 		{
 			"name": "Mt. Timpanogas Temple",
@@ -66,7 +77,12 @@
 					"start": "2019-07-04",
 					"end": "2019-07-04"
 				}
-			]
+			],
+			"services": [
+				{ "services": "Clothing rental available"},
+				{ "services": "Cafeteria available"},
+				{ "services":	"Distribution Center nearby"}]
+
+
 		}
-	]
-}
+]
