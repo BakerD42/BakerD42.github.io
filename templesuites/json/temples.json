@@ -1,4 +1,4 @@
-[
+{ "temples":[
 		{"rexburg":{	
 			"name": "Rexburg Idaho Temple",
 			"location": "Rexburg, Idaho, United States",
@@ -92,4 +92,4 @@
 
 
 		}}
-]
+]}
