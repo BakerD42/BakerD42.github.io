@@ -47,12 +47,12 @@ function showTemples(jsonObj) {
      myServices.appendChild(listItem);
     }
 
-name.appendChild(myLocate);
-name.appendChild(myClosures);
-name.appendChild(myServices);
-name.appendChild(myDescription);
+myName.appendChild(myLocate);
+myName.appendChild(myClosures);
+myName.appendChild(myServices);
+myName.appendChild(myDescription);
 
-section.appendChild(name);
+section.appendChild(myName);
 }
 }
 
