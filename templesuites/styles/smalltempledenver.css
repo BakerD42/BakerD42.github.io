@@ -6,13 +6,13 @@
     grid-column-end: span 2;
 }
 
-.temples.ammentities{
+.ammentities{
     grid-row-start: 2;
 }
 
-.temples.Image{
+.Image{
    grid-column-start: 3;
 }
-.temples.Footer{
+.Footer{
     grid-row-start: 3;
 }

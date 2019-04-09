@@ -1,10 +1,14 @@
 @media only screen and (device-width: 768px) {
     /* rules for tablet */
   }
-  
-  @media only screen and (min-device-width: 320px) and (max-device-width: 480px) {
+
+ @media (max-width: 480px) {
     /* iPhone, Android rules here */
-  }
+    .grid{
+        display: grid;
+        grid-template-columns: 100px auto 
+    }
+}
 
 .grid{
     display: grid;
@@ -19,6 +23,7 @@
 }
 .ammentities{
     grid-row-start: 2;
+    background-color: yellow;
 }
 .Description{
     grid-column-start: 2;
@@ -30,6 +35,7 @@
 .Image{
     grid-column-start: 3;
     grid-row-start: 2;
+    background-color: grey;
 }
 .Footer{
     grid-column-end: span 3;
