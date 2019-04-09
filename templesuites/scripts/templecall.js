@@ -18,8 +18,8 @@ function showTemples(jsonObj) {
     var templeData = jsonObj['temples'];
 
     //for (var i = 0; i < templeData; i++) {}
-    var name = document.createElement('name');
-    name.className += "templeName";
+    var myName = document.createElement('name');
+    myName.className += "templeName";
     var myLocate = document.createElement('location');
     myLocate.className += "templeLocate";
     var myClosures = document.createElement('closures');
@@ -29,7 +29,7 @@ function showTemples(jsonObj) {
     var myDescription = document.createElement('description');
     myDescription.className += "templeDescription";
 
-    name.textContent = templeData.name;
+    myName.textContent = templeData.myName;
     myLocate.textContent = templeData.myLocate;
     myClosures.textContent = templeData.myClosures;
     myServices.textContent = templeData.myServices;
