@@ -17,7 +17,12 @@ templeRequest.onload = function () {
 function showTemples(jsonObj) {
     var templeData = jsonObj['temples'];
 
-    //for (var i = 0; i < templeData; i++) {}
+    for (var i = 0; i < templeData; i++) {
+        if (i === 0 || i === 1 || i === 2){
+            continue;
+        }
+    
+
     var myName = document.createElement('name');
     myName.className += "templeName";
     var myLocate = document.createElement('location');
@@ -34,6 +39,7 @@ function showTemples(jsonObj) {
     myClosures.textContent = templeData.myClosures;
     myServices.textContent = templeData.myServices;
     myDescription.textContent = templeData.myDescription;
+    }
 
 name.appendChild(myLocate);
 name.appendChild(myClosures);
