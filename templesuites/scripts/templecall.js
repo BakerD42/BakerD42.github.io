@@ -2,10 +2,10 @@
 //Attempt at recreating Town JSON data retrieval
 var section = document.querySelector('section');
 
-var retrieveTemple = '../templesuites/json/temples.json'
-let templeRequest = new XMLHttpRequest();
+var templeURL = '../templesuites/json/temples.json'
+var templeRequest = new XMLHttpRequest();
 
-templeRequest.open ('GET', retrieveTemple);
+templeRequest.open ('GET', templeURL);
 templeRequest.responseType = 'json';
 templeRequest.send();
 
