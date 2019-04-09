@@ -1,3 +1,6 @@
+*{
+    font-family: 'Francois One', sans-serif;
+}
 @media (max-width: 768px) {
     /* rules for tablet */
   }
@@ -28,15 +31,17 @@
 }
 .Description{
     grid-column-start: 2;
+    grid-column-end: 2;
 }
 .Map{
     grid-column-start: 3;
-    grid-row-start: 3;
+    
 }
 .Image{
     grid-column-start: 3;
-    grid-row-start: 2;
+    grid-row-start: 3;
     background-color: grey;
+    text-align: center;
 }
 .Footer{
     grid-column-start: span 3;

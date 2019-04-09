@@ -12,6 +12,7 @@ body{
 
 .ammentities{
     grid-row-start: 2;
+    grid-column-end: 2;
     
 }
 
