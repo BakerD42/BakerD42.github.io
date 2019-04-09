@@ -7,9 +7,9 @@ templeRequest.send();
 templeRequest.onload = function () {
     var templeData = JSON.parse(templeRequest.responseText);
     console.log(templeData);
-    var denverdescription = document.getElementById("denverdescription").nodeValue;
+    // var denverdescription = document.getElementById("denverdescription").nodeValue;
 
-    document.getElementById("denverdescription").innerHTML = denverdescription;
+    document.getElementById("denverdescription").innerHTML = denver.denverservices;
     document.getElementById("denverservices").innerHTML = denverservices;
     // name containers and place containters in various areas of site page
 }
