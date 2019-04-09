@@ -7,7 +7,7 @@ templeRequest.send();
 templeRequest.onload = function () {
     var templeData = JSON.parse(templeRequest.responseText);
     console.log(templeData);
-    var denverdescription = document.getElementById("denverdescription");
+    var denverdescription = document.getElementById("denverdescription").nodeValue;
 
     document.getElementById("denverdescription").innerHTML = denverdescription;
     document.getElementById("denverservices").innerHTML = denverservices;
