@@ -29,7 +29,7 @@ function showTemples(jsonObj) {
     var myDescription = document.createElement('description');
     myDescription.className += "templeDescription";
 
-    name.textContent = templeData.myName;
+    name.textContent = templeData.name;
     myLocate.textContent = templeData.myLocate;
     myClosures.textContent = templeData.myClosures;
     myServices.textContent = templeData.myServices;
@@ -42,10 +42,10 @@ function showTemples(jsonObj) {
     myServices.appendChild(listItem);
 }
 
-myName.appendChild(myLocate);
-myName.appendChild(myClosures);
-myName.appendChild(myServices);
-myName.appendChild(myDescription);
+name.appendChild(myLocate);
+name.appendChild(myClosures);
+name.appendChild(myServices);
+name.appendChild(myDescription);
 
 section.appendChild(name);
 }
