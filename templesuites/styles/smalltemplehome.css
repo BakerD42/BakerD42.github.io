@@ -1,4 +1,4 @@
-@media only screen and (device-width: 768px) {
+@media (max-width: 768px) {
     /* rules for tablet */
   }
 
@@ -24,6 +24,7 @@
 .ammentities{
     grid-row-start: 2;
     background-color: yellow;
+    grid-row-end: 4;
 }
 .Description{
     grid-column-start: 2;
@@ -38,11 +39,14 @@
     background-color: grey;
 }
 .Footer{
-    grid-column-end: span 3;
+    grid-column-start: span 3;
     text-align: center;
 }
 .contact{
     grid-column-end: span 3;
     text-align: center;
+}
+body{
+    height:650px;
 }
 
