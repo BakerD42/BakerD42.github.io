@@ -24,7 +24,6 @@ function showTemples(jsonObj) {
     
 
     var myName = document.createElement('name');
-    myName.className += "templeName";
     var myLocate = document.createElement('location');
     myLocate.className += "templeLocate";
     var myClosures = document.createElement('closures');
