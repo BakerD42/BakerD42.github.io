@@ -34,11 +34,17 @@ function showTemples(jsonObj) {
     var myDescription = document.createElement('description');
     myDescription.className += "templeDescription";
 
-    myName.textContent = templeData.myName;
-    myLocate.textContent = templeData.myLocate;
-    myClosures.textContent = templeData.myClosures;
-    myServices.textContent = templeData.myServices;
-    myDescription.textContent = templeData.myDescription;
+    myName.textContent = templeDatai[i].myName;
+    myLocate.textContent = templeData[i].myLocate;
+    myClosures.textContent = templeData[i].myClosures;
+    myServices.textContent = templeData[i].myServices;
+    myDescription.textContent = templeData[i].myDescription;
+
+     var services = templeData.services;
+     for (var j = 0; j < services.length; j++) {
+     var listItem = document.createElement('li');
+     listItem.textContent = services[j];
+     myServices.appendChild(listItem);
     }
 
 name.appendChild(myLocate);
@@ -48,10 +54,6 @@ name.appendChild(myDescription);
 
 section.appendChild(name);
 }
+}
 
 
-    // var services = templeData.services;
-    // for (var j = 0; j < services.length; j++) {
-    // var listItem = document.createElement('li');
-    // listItem.textContent = services[j];
-    // myServices.appendChild(listItem);
