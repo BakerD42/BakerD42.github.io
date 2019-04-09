@@ -10,6 +10,6 @@ templeRequest.onload = function () {
     // var denverdescription = document.getElementById("denverdescription").nodeValue;
 
     document.getElementById("denverdescription").innerHTML = templeData.description;
-    document.getElementById("denverservices").innerHTML = services.service;
+    // document.getElementById("denverservices").innerHTML = services.service;
     // name containers and place containters in various areas of site page
 }
