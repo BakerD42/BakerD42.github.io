@@ -15,7 +15,7 @@ for (var i = 0; i < templeData.length; i++){
     
 
 document.getElementById("denverdescription").innerHTML = templeData.description;
-// section.appendChild(description);
+section.appendChild(description);
 }
     // document.getElementById("denverservices").innerHTML = services.service;
     // name containers and place containters in various areas of site page
