@@ -10,7 +10,7 @@ templeRequest.onload = function () {
     console.log(templeData);
     // var denverdescription = document.getElementById("denverdescription").nodeValue;
 
-for (var i = 0; i < words.length; i++){
+for (var i = 0; i < templeData.length; i++){
     var description = document.createElement('description');
 
 section.appendChild(description);
