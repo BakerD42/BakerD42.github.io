@@ -9,7 +9,7 @@ templeRequest.onload = function () {
     console.log(templeData);
     // var denverdescription = document.getElementById("denverdescription").nodeValue;
 
-    document.getElementById("denverdescription").innerHTML = templeData.temples.denverdescription;
-    document.getElementById("denverservices").innerHTML = denverservices;
+    document.getElementById("denverdescription").innerHTML = templeData.temples.description;
+    document.getElementById("denverservices").innerHTML = services;
     // name containers and place containters in various areas of site page
 }
