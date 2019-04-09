@@ -16,7 +16,7 @@ for (var i = 0; i < templeData.length; i++){
     var description = document.createElement('description');
     
 
-document.getElementById("denverdescription").innerHTML = templeData.description;
+document.getElementById("denverdescription").innerHTML = description;
 section.appendChild(description);
 }
     // document.getElementById("denverservices").innerHTML = services.service;
