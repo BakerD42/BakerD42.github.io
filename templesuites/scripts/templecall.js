@@ -18,7 +18,7 @@ function showTemples(jsonObj) {
     var templeData = jsonObj['temples'];
 
     for (var i = 0; i < templeData; i++) {
-        if (i === 0 || i === 1 || i === 2){
+        if (i === 0 || i === 1 || i === 2 || i === 3 || i === 4){
             continue;
         }
     
