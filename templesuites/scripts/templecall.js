@@ -1,3 +1,5 @@
+
+//Attempt at recreating Town JSON data retrieval
 var section = document.querySelector('section');
 
 var retrieveTemple = '../templesuites/json/temples.json'
@@ -15,9 +17,7 @@ templeRequest.onload = function () {
 function showTemples(jsonObj) {
     var templeData = jsonObj['temples'];
 
-    for (var i = 0; i < templeData; i++) {
-    
-    }
+    //for (var i = 0; i < templeData; i++) {}
     var myName = document.createElement('name');
     myName.className += "templeName";
     var myLocate = document.createElement('location');
@@ -29,11 +29,11 @@ function showTemples(jsonObj) {
     var myDescription = document.createElement('description');
     myDescription.className += "templeDescription";
 
-    myName.textContent = templeData[i].myName;
-    myLocate.textContent = templeData[i].myLocate;
-    myClosures.textContent = templeData[i].myClosures;
-    myServices.textContent = templeData[i].myServices;
-    myDescription.textContent = templeData[i].myDescription;
+    myName.textContent = templeData.myName;
+    myLocate.textContent = templeData.myLocate;
+    myClosures.textContent = templeData.myClosures;
+    myServices.textContent = templeData.myServices;
+    myDescription.textContent = templeData.myDescription;
 
     var services = templeData[i].services;
     for (var j = 0; j < services.length; j++) {
@@ -49,14 +49,3 @@ myName.appendChild(myDescription);
 
 section.appendChild(myName);
 }
-
-//for (var i = 0; i < templeData.length; i++){
-    //var description = document.createElement('description');
-    
-
-//document.getElementById("denverdescription").innerHTML = description;
-//section.appendChild(description);
-//}
-    // document.getElementById("denverservices").innerHTML = services.service;
-    // name containers and place containters in various areas of site page
-//}
