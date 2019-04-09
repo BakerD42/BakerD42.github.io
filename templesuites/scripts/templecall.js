@@ -15,7 +15,7 @@ templeRequest.onload = function () {
 function showTemples(jsonObj) {
     var templeData = jsonObj['temples'];
 
-    for (var i = 0; i < templeData.length; i++) {
+    for (var i = 0; i < templeData; i++) {
     
     }
     var myName = document.createElement('name');
