@@ -28,8 +28,8 @@ function showTemples(jsonObj) {
     myServices.className += "templeService";
     var myDescription = document.createElement('description');
     myDescription.className += "templeDescription";
-    
-    var services = templeData[i].services;
+
+    var services = templeData.services;
     for (var j = 0; j < services.length; j++) {
     var listItem = document.createElement('li');
     listItem.textContent = services[j];
