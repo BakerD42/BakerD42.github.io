@@ -8,7 +8,7 @@ templeRequest.responseType = 'json';
 templeRequest.send();
 
 templeRequest.onload = function () {
-    var templeData = JSON.parse(templeRequest.response);
+    var templeData = templeRequest.response;
     showTemples(templeData);
 }
 
