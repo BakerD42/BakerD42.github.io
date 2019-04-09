@@ -1,3 +1,5 @@
+var section = document.querySelector('section');
+
 var retrieveTemple = '../templesuites/json/temples.json'
 let templeRequest = new XMLHttpRequest();
 templeRequest.open ('GET', retrieveTemple);
