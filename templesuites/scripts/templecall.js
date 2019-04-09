@@ -17,7 +17,7 @@ templeRequest.onload = function () {
 function showTemples(jsonObj) {
     var templeData = jsonObj['temples'];
 
-    for (var i = 0; i < templeData; i++) {
+    for (var i = 0; i < templeData.length; i++) {
         if (i === 0 || i === 1 || i === 2 || i === 3 || i === 4){
             continue;
         }
@@ -40,7 +40,7 @@ function showTemples(jsonObj) {
     myServices.textContent = templeData[i].myServices;
     myDescription.textContent = templeData[i].myDescription;
 
-     var services = templeData.services;
+     var services = templeData[i].services;
      for (var j = 0; j < services.length; j++) {
      var listItem = document.createElement('li');
      listItem.textContent = services[j];
