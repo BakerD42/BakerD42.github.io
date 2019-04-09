@@ -1,6 +1,5 @@
 let templeRequest = new XMLHttpRequest();
 templeRequest.open ('GET', "../templesuites/json/temples.json",true);
-templeRequest.responseType = 'json';
 templeRequest.send();
 //retrieve temple JSON data
 
