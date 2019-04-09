@@ -1,5 +1,6 @@
 let templeRequest = new XMLHttpRequest();
 templeRequest.open ('GET', "../templesuites/json/temples.json",true);
+request.responseType = 'json';
 templeRequest.send();
 //retrieve temple JSON data
 
@@ -9,7 +10,7 @@ templeRequest.onload = function () {
     console.log(templeData);
     // var denverdescription = document.getElementById("denverdescription").nodeValue;
 
-    document.getElementById("denverdescription").innerHTML = templeData.temples.description;
+    document.getElementById("denverdescription").innerHTML = templeData.description;
     document.getElementById("denverservices").innerHTML = services;
     // name containers and place containters in various areas of site page
 }
