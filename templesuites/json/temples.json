@@ -22,9 +22,9 @@
 
 		},
 		{
-			"denvername": "Denver Colorado Temple",
-			"denverlocation": "Denver, Colorado, United States",
-			"denverclosures": [{
+			"name": "Denver Colorado Temple",
+			"location": "Denver, Colorado, United States",
+			"closures": [{
 					"start": "2019-04-06",
 					"end": "2019-04-06"
 				},
@@ -37,10 +37,10 @@
 					"end": "2019-05-10"
 				}
 			],
-			"denverservices": [
+			"services": [
 				{ "services": "Clothing rental available" },
 				{ "services": "Distribution center nearby" }],
-			"denverdescription": "The LDS Church announced plans to build a temple in Colorado on March 31, 1982. Almost two years later, Gordon B. Hinckley presided over the site dedication and groundbreaking. Hand-carved woodwork adorns the temple interior, along with hand-painted designs on the walls and ceilings. The temple also features more than six hundred square feet of specially designed stained glass windows. The temple is situated on a hilltop in Centennial that was once part of a golf course and country club."
+			"description": "The LDS Church announced plans to build a temple in Colorado on March 31, 1982. Almost two years later, Gordon B. Hinckley presided over the site dedication and groundbreaking. Hand-carved woodwork adorns the temple interior, along with hand-painted designs on the walls and ceilings. The temple also features more than six hundred square feet of specially designed stained glass windows. The temple is situated on a hilltop in Centennial that was once part of a golf course and country club."
 
 
 		},
