@@ -26,16 +26,17 @@
 }
 .ammentities{
     grid-row-start: 2;
-    background-color: yellow;
+    background-color: azure;
     grid-row-end: 4;
 }
 .Description{
     grid-column-start: 2;
     grid-column-end: 2;
+    background-color: azure;
 }
 .Map{
     grid-column-start: 3;
-    
+    background-color: azure;  
 }
 .Image{
     grid-column-start: 3;
@@ -53,5 +54,6 @@
 }
 body{
     height:650px;
+    background-color: azure;
 }
 
