@@ -9,7 +9,7 @@
     /* iPhone, Android rules here */
     .grid{
         display: grid;
-        grid-template-columns:  auto 
+        grid-auto-columns: auto;
     }
 }
 
