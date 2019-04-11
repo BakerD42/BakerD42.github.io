@@ -11,6 +11,7 @@
         grid-template-columns: auto;
     }
 }
+/*Desktop View*/
 .grid{
     display: grid;
     grid-template-columns: 250px 1fr 1fr;
@@ -21,9 +22,25 @@
     grid-column-end: 2;
     grid-column-start: 2;
     background-color: azure;
-    padding: 5px;
+    padding: 15px;
+    text-align: center;
 
 }
+a.button,div.menu{
+    float: left;
+}
+a:link, a:visited {
+    color: Black;
+    padding: 14px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+  }
+  
+   a:hover, a:active {
+       background-color: gray;
+    
+  } 
 .logo{
     background-color: azure;
     text-align: center;
@@ -64,7 +81,7 @@
     grid-column-start: 2;
     grid-column-end: 4;
     grid-row-start: 3;
-    background-color: rgb(221, 240, 238);
+    background-color: azure;
     text-align: center;
     padding: 5px;
 
@@ -73,6 +90,7 @@
     grid-column-start: span 3;
     text-align: center;
     padding: 5px;
+    background-color: azure;
 
 }
 .contact{
