@@ -36,7 +36,6 @@ a:link, a:visited {
     text-decoration: none;
     display: inline-block;
   }
-  
    a:hover, a:active {
        background-color: gray;
     
@@ -46,7 +45,6 @@ a:link, a:visited {
     text-align: center;
     padding: 5px;
     grid-row-end: auto;
-
 }
 .ammentities{
     grid-row-start: 3;
