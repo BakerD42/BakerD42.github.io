@@ -29,6 +29,9 @@
 a.button,div.menu{
     float: left;
 }
+a.active{
+    background-color: gray;
+}
 a:link, a:visited {
     color: Black;
     padding: 14px;
@@ -48,8 +51,10 @@ a:link, a:visited {
 }
 .ammentities{
     grid-row-start: 3;
+    text-align: center;
     background-color: azure;
     grid-row-end: 4;
+    border: 2px solid black;
     border-radius: 25px;
     padding: 5px;
 
