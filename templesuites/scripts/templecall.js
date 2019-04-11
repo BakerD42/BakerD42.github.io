@@ -47,13 +47,11 @@ function showTemples(jsonObj) {
      myServices.appendChild(listItem);
     }
 
-myName.appendChild(myLocate);
-myName.appendChild(myClosures);
-myName.appendChild(myServices);
-myName.appendChild(myDescription);
+document.getElementById.appendChild("templeClosure");
+// myName.appendChild(myLocate);
+// myName.appendChild(myClosures);
+// myName.appendChild(myServices);
+// myName.appendChild(myDescription);
 
 section.appendChild(myName);
 }
-
-
-
