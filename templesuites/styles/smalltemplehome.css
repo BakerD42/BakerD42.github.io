@@ -30,6 +30,7 @@
     background-color: azure;
     text-align: center;
     padding: 5px;
+    grid-row-end: auto;
 
 }
 .ammentities{
@@ -43,11 +44,11 @@
 .templeClosure{
     grid-column-start: 1;
     grid-row-start: 2;
-    
+    grid-row-end: 3;
 }
 .Description{
     grid-column-start: 2;
-    grid-column-end: 3;
+    grid-column-end: 4;
     background-color: azure;
     padding: 5px;
 
@@ -55,10 +56,10 @@
 .Map{
     grid-column-start: 3;
     grid-row-start: 1;
-    grid-row-end: 1;
     background-color: azure;  
     text-align: center;
     padding: 5px;
+    
 
 }
 .Image{
