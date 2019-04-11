@@ -24,7 +24,6 @@
                     <div class="ammentities"><strong><h2><u>Temple Services</u></h2>
                                                 <p><br>Clothing Rental Available <br>
                                                 Distribution Center Nearby</p></strong>
-                                                
                                                 </div>
                     <div class="Description"><h2>Seattle Washington Temple</h2>
                             <p>The Seattle Washington Temple (formerly the Seattle Temple) 
@@ -49,6 +48,36 @@
                     <div class="contact"><a href="contactus.html">Contact Us!</a></div>
                     <section>  
                     </section>
+                    <div class="registration">
+                            <h2>Register here to be notified of new venues!</h2>
+                            <form action="registration.html" method="GET">
+                                <div>
+                                    <label for="Full Name">Full Name: </label>
+                                    <input type="text" id="fullName" name="fullName" placeholder="John Smith" required>
+                                </div>
+                                <div>
+                                    <label for="Email">Email: </label>
+                                    <input type="email" id="email" name="email" placeholder="user@example.com" required>
+                                </div>
+                                <div>
+                                    <label for="Phone Number">Phone Number: </label>
+                                    <input type="tel" id="phnumb" name="phnumb" placeholder="555-555-5555" required>
+                                </div>
+                                <div>
+                                    <label for="Favorite temple">Favorite Temple: </label>
+                                    <input list="favoritemple" id="type" name="type">
+                                </div>
+                                    <datalist id="favoritemple">
+                                        <option value="Rexburg, ID"></option>
+                                        <option value="Denver, CO"></option>
+                                        <option value="Mt. Timpanogos, UT"></option>
+                                        <option value="Seattle, WA"></option>
+                                    </datalist>
+                                <div>
+                                    <input type="submit" value="submit">
+                                </div>
+                            </form>
+                        </div>
                 </div>
             <script src="scripts/currentdate.js"></script>
             <script src="scripts/templecall.js"></script>
