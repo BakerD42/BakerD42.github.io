@@ -65,7 +65,7 @@ a:link, a:visited {
     background-color: aqua;
     grid-column-start: 1;
     grid-row-start: 2;
-    grid-row-end: 3;
+    grid-row-end: 2;
     border: 2px solid black;
     border-radius: 25px;
     text-align: center;
@@ -136,4 +136,6 @@ body{
     border-radius: 25px;
     width: 175px;
     padding: 10px;
+    position: fixed;
+    right: 10px;
 }
