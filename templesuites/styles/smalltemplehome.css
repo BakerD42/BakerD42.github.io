@@ -1,16 +1,16 @@
 *{
     font-family: 'Francois One', sans-serif;
 }
-@media (max-width: 768px) {
+@media (min-width: 400px) {
     /* rules for tablet */
-  }
- @media screen and (max-width: 480px) {
-    /* iPhone, Android rules here */
     .grid{
         display: grid;
-        grid-template-columns: auto;
+        grid-template-columns: auto 
     }
-}
+
+    
+  }
+ @media (min-width:750px) {   
 /*Desktop View*/
 .grid{
     display: grid;
@@ -138,4 +138,5 @@ body{
     padding: 10px;
     position: fixed;
     right: 10px;
+}
 }
