@@ -27,18 +27,18 @@ function showTemples(jsonObj) {
     var myName = document.createElement('div');
     var myLocate = document.createElement('div');
     myLocate.className += "templeLocate";
-    var myClosures = document.createElement('ul');
+    var myClosures = document.createElement('div');
     myClosures.className += "templeClosure";
-    var myServices = document.createElement('ul');
+    var myServices = document.createElement('div');
     myServices.className += "templeService";
     var myDescription = document.createElement('div');
     myDescription.className += "templeDescription";
 
     myName.textContent = templeData[i].name;
-    myLocate.textContent = templeData[i].location;
+    // myLocate.textContent = templeData[i].location;
     myClosures.textContent = templeData[i].closures;
-    myServices.textContent = templeData[i].services;
-    myDescription.textContent = templeData[i].description;
+    // myServices.textContent = templeData[i].services;
+    // myDescription.textContent = templeData[i].description;
 
      var services = templeData[i].services;
      for (var j = 0; j < services.length; j++) {
@@ -47,11 +47,13 @@ function showTemples(jsonObj) {
      myServices.appendChild(listItem);
     }
 
-document.getElementById.appendChild("templeClosure");
-// myName.appendChild(myLocate);
+document.getElementById("templeData.closures");
+
 // myName.appendChild(myClosures);
 // myName.appendChild(myServices);
 // myName.appendChild(myDescription);
 
-section.appendChild(myName);
+section.appendChild(myClosures.lastChild);
+
+console.log(templeData);
 }
