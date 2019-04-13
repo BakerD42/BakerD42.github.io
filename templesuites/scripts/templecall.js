@@ -39,21 +39,14 @@ function showTemples(jsonObj) {
     myClosures.textContent = templeData[i].closures;
     // myServices.textContent = templeData[i].services;
     // myDescription.textContent = templeData[i].description;
-
      var services = templeData[i].services;
      for (var j = 0; j < services.length; j++) {
      var listItem = document.createElement('li');
      listItem.textContent = services[j];
      myServices.appendChild(listItem);
     }
-
 document.getElementById("templeData.closures");
-
-// myName.appendChild(myClosures);
-// myName.appendChild(myServices);
-// myName.appendChild(myDescription);
-
-section.appendChild(myClosures.lastChild);
-
+section.appendChild(myClosures.firstChild);
+// section.appendChild(myClosures.lastChild);
 console.log(templeData);
 }
